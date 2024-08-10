@@ -1,5 +1,5 @@
 <template>
-  <!-- <Message :msg="msg" v-show="msg" /> -->
+  <Message :msg="msg" v-show="msg" />
   <div>
     <form id="burger-form" method="POST" @submit="createBurger">
       <div class="input-container">
@@ -36,7 +36,7 @@
 </template>
 
 <script>
-// import Message from './Message';;
+import Message from './Message';;
 
 export default {
   name: "BurgerForm",
@@ -87,10 +87,10 @@ export default {
 
       console.log(res)
 
-    //   this.msg = "Pedido realizado com sucesso!"
+      this.msg = `Pedido nº ${res.id} realizado com sucesso!`
 
-    //   // clear message
-    //   setTimeout(() => this.msg = "", 3000)
+      // clear message
+      setTimeout(() => this.msg = "", 3000)
 
       // limpar campos
       this.nome = ""
@@ -104,14 +104,14 @@ export default {
     this.getIngredientes()
   },
   components: {
-    // Message
+    Message,
   }
 }
 </script>
 
 <style scoped>
 #burger-form {
-  max-width: 400px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
@@ -130,12 +130,9 @@ label {
   border-left: 4px solid #fcba03;
 }
 
-input,
-select {
+input, select {
   padding: 5px 10px;
-  width: 300px;
 }
-
 #opcionais-container {
   flex-direction: row;
   flex-wrap: wrap;

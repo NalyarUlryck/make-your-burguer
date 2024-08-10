@@ -79,14 +79,23 @@
   ],
   "burgers": [
     {
-      "id": "3945",
+      "id": "dd2c",
       "nome": "Nalyar",
       "carne": "Maminha",
       "pao": "Italiano Branco",
+      "opcionais": [],
+      "status": "Solicitado"
+    },
+    {
+      "id": "5f20",
+      "nome": "Ulryck",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
         "Salame",
-        "Cebola roxa"
+        "Cebola roxa",
+        "Tomate"
       ],
       "status": "Solicitado"
     }
