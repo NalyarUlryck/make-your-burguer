@@ -79,23 +79,29 @@
   ],
   "burgers": [
     {
-      "id": "dd2c",
+      "id": "3116",
       "nome": "Nalyar",
       "carne": "Maminha",
       "pao": "Italiano Branco",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "5f20",
-      "nome": "Ulryck",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
         "Salame",
         "Cebola roxa",
-        "Tomate"
+        "Pepino",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "db67",
+      "nome": "Ulryck",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar",
+        "Salame",
+        "Pepino"
       ],
       "status": "Solicitado"
     }
