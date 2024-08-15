@@ -79,31 +79,43 @@
   ],
   "burgers": [
     {
-      "id": "3116",
-      "nome": "Nalyar",
+      "id": "a8cb",
+      "nome": "FULANO DE TESTE 1",
       "carne": "Maminha",
       "pao": "Italiano Branco",
       "opcionais": [
         "Bacon",
-        "Salame",
-        "Cebola roxa",
-        "Pepino",
         "Tomate",
-        "Cheddar"
+        "Pepino"
       ],
-      "status": "Solicitado"
+      "status": "Em produção"
     },
     {
-      "id": "db67",
-      "nome": "Ulryck",
+      "id": "3339",
+      "nome": "FULANO DE TESTE 2",
       "carne": "Alcatra",
       "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar",
+        "Tomate",
+        "Pepino",
+        "Cebola roxa",
+        "Salame",
+        "Bacon"
+      ],
+      "status": "Finalizado"
+    },
+    {
+      "id": "ed87",
+      "nome": "Nalyar Ulryck",
+      "carne": "Picanha",
+      "pao": "Parmesão e Orégano",
       "opcionais": [
         "Cheddar",
         "Salame",
         "Pepino"
       ],
-      "status": "Solicitado"
+      "status": "Em produção"
     }
   ]
 }
